@@ -1,5 +1,9 @@
+function sleep(delay) {
+	var start = new Date().getTime();
+	while (new Date().getTime() < start + delay);
+};
 function delayLoadPage()  {
-  setTimeout("", 2000);
+  sleep(2000);
   document.getElementById("home").style.display = 'none';
   document.getElementById("ready").style.display = 'block';
 };
