@@ -1,6 +1,6 @@
 function delayLoadPage()  {
   setTimeout("", 2000);
-  document.getElementById("main").style.display = 'none';
+  document.getElementById("home").style.display = 'none';
   document.getElementById("ready").style.display = 'block';
 };
 window.onload = function() {
