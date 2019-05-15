@@ -34,13 +34,13 @@
 	<meta name="msapplication-square150x150logo" content="/icon/mstile-150x150.png" />
 	<meta name="msapplication-wide310x150logo" content="/icon/mstile-310x150.png" />
 	<meta name="msapplication-square310x310logo" content="/icon/mstile-310x310.png" />
-	<meta http-equiv="refresh" content="2;URL=https://www.aingaran.dev" />
+	<meta http-equiv="refresh" content="4;URL=https://www.aingaran.dev" />
 </head>
 
 <body class="loading">
     <div id="root">
         <div id="bg" style="background: none; background-color: #111111;"></div>
-        <div id="main">
+        <div id="main" style="display: block;">
             <header id="header">
                 <nav>
                     <ul>
@@ -51,7 +51,19 @@
                         <li><a href="#" class="icon fa-battery-full" target="_self"><span class="label">Battery Full</span></a></li>
                     </ul>
                 </nav>
-				<h1>Powering up <a href="https://www.aingaran.dev">aingaran.dev</a>...</h1>
+				<h1>Powering up Website</h1>
+            </header>
+        </div>
+	<div id="ready" style="display: none;">
+            <header id="header">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="icon fa-battery-full" target="_self"><span class="label">Battery Full</span></a></li>
+                    </ul>
+                </nav>
+		    <h1 style="display: inline">Ready</h1>
+		    <h1 style="display: inline" class="blink">.</h1>
+		    <h2 style="font-size: 25px">Click <a href="https://www.aingaran.dev">here</a> if you are not redirected automatically</h2>
             </header>
         </div>
     </div>
